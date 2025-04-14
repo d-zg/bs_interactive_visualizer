@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive Lognormal PDF & Call Payoff</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- The following script loads the generated WASM module.
+         Adjust the path if necessary (here we assume the wasm package is in a folder called "pkg"). -->
+    <script type="module">
+      import init from "./pkg/bs_interactive_plot.js";
+      init();
+    </script>
+  </body>
+</html>
